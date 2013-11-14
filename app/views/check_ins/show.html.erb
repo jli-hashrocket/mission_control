@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @check_in.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @check_in.last_name %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @check_in.time %>
+</p>
+
+<%= link_to 'Edit', edit_check_in_path(@check_in) %> |
+<%= link_to 'Back', check_ins_path %>

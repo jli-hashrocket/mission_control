@@ -1,0 +1,29 @@
+// Place all the styles related to the bookmarks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table{
+  font-family: Tahoma, sans-serif;
+  font-size:12px;
+  border: 1px solid #277DAB;
+-webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.3);
+-moz-box-shadow:    4px 4px 5px rgba(50, 50, 50, 0.3);
+box-shadow:         4px 4px 5px rgba(50, 50, 50, 0.3);
+}
+
+th{
+    background-color:#277DAB;
+    color: #fff;
+    padding:3px
+}
+
+a{
+  color:#8F281D
+}
+td{
+  padding:3px
+}
+
+h1{
+  margin-bottom:40px
+}
+
